@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevator System</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Digital Display -->
+      <div class="row">
+        <div id="outerBorder" class="text-center">
+          <!-- Display Itself -->
+          <div id="digitalDisplay">0</div>
+        </div>
+        <!-- Display Itself -->
+      </div>
+      <!-- Digital Display -->
+
+      <!-- Panel -->
+      <div class="row">
+        <!-- Floor Panel -->
+        <div id="panel">
+          <!-- Floors -->
+          <div id="panelFloors" class="row">
+            <!-- Floors Left -->
+            <div class="col-6 d-flex">
+              <button
+                onclick="getFloorNineth();"
+                id="nineth"
+                class="btn mx-auto"
+              >
+                9
+              </button>
+            </div>
+            <!-- Floors Left -->
+            <!-- Floors Right -->
+            <div class="col-6 d-flex">
+              <button onclick="getFloorTenth();" id="tenth" class="btn mx-auto">
+                10
+              </button>
+            </div>
+            <!-- Floors Right -->
+
+            <!-- Floors Left -->
+            <div class="col-6 d-flex">
+              <button
+                onclick="getFloorSeventh();"
+                id="seventh"
+                class="btn mx-auto"
+              >
+                7
+              </button>
+            </div>
+            <!-- Floors Left -->
+            <!-- Floors Right -->
+            <div class="col-6 d-flex">
+              <button
+                onclick="getFloorEighth();"
+                id="eighth"
+                class="btn mx-auto"
+              >
+                8
+              </button>
+            </div>
+            <!-- Floors Right -->
+
+            <!-- Floors Left -->
+            <div class="col-6 d-flex">
+              <button onclick="getFloorFifth();" id="fifth" class="btn mx-auto">
+                5
+              </button>
+            </div>
+            <!-- Floors Left -->
+            <!-- Floors Right -->
+            <div class="col-6 d-flex">
+              <button onclick="getFloorSixth();" id="sixth" class="btn mx-auto">
+                6
+              </button>
+            </div>
+            <!-- Floors Right -->
+
+            <!-- Floors Left -->
+            <div class="col-6 d-flex">
+              <button onclick="getFloorThird();" id="third" class="btn mx-auto">
+                3
+              </button>
+            </div>
+            <!-- Floors Left -->
+            <!-- Floors Right -->
+            <div class="col-6 d-flex">
+              <button
+                onclick="getFloorFourth();"
+                id="fourth"
+                class="btn mx-auto"
+              >
+                4
+              </button>
+            </div>
+            <!-- Floors Right -->
+
+            <!-- Floors Left -->
+            <div class="col-6 d-flex">
+              <button onclick="getFloorFirst();" id="first" class="btn mx-auto">
+                1
+              </button>
+            </div>
+            <!-- Floors Left -->
+            <!-- Floors Right -->
+            <div class="col-6 d-flex">
+              <button
+                onclick="getFloorSecond();"
+                id="second"
+                class="btn mx-auto"
+              >
+                2
+              </button>
+            </div>
+            <!-- Floors Right -->
+          </div>
+          <div class="col-12 d-flex">
+            <button onclick="getFloorT();" id="floor" class="btn mx-auto">
+              T
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Panel -->
+    </div>
+    <!-- Container -->
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

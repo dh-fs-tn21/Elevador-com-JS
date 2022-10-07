@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: whitesmoke;
+}
+
+.btn {
+  border: 1px solid black;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+}
+
+#outerBorder {
+  border: 10px solid grey;
+  border-radius: 30px;
+  background-color: grey;
+  width: 200px;
+  margin: 50px auto;
+}
+
+#digitalDisplay {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  color: chartreuse;
+  font-size: 50px;
+}
+
+#panel {
+  min-width: 300px;
+  min-height: 500px;
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: grey;
+  border-radius: 20px;
+  outline: 10px solid black;
+}
